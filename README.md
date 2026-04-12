@@ -1,4 +1,4 @@
-# Escalada
+## Escalada
 
 ## Project Details
 - **Framework:** Meteor JS

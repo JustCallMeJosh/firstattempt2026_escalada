@@ -1,53 +1,49 @@
-Escalada, Joshua Elly
-This project is a web-based conversion of the Alumni Portal mobile application. Developed as part of the Alumni Hub UI Prototype, the application translates a mobile-first design into a responsive desktop experience using Meteor JS, optimized for the Ateneo de Davao University faculty ecosystem.
+<Escalada>
 
-🛠 Framework & Technology
-Framework: Meteor JS
+## Project Details
+- **Framework:** Meteor JS
+- **Module:** Alumni Portal
 
-Module: Alumni Portal
+## Installation
+Follow these steps to replicate the repository and run the application on a different computer:
 
-Language: Pure JavaScript (Single-file architecture for HTML, CSS, and JS logic)
+1. **Prerequisites:**
+    - Ensure you have [Meteor](https://docs.meteor.com/about/install) installed.
+    - Ensure you have [Node.js](https://nodejs.org/) installed.
 
-📥 Installation
-To replicate this repository and run the application on a different computer, follow these detailed steps:
+2. **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/JustCallMeJosh/firstattempt2026_escalada.git](https://github.com/JustCallMeJosh/firstattempt2026_escalada.git)
+    cd firstattempt2026_escalada
+    ```
 
-Install Meteor:
-Before running the project, ensure you have the Meteor framework installed on your system. Refer to the official Meteor installation guide for OS-specific instructions.
+3. **Install Dependencies:**
+    ```bash
+    npm install
+    ```
 
-Clone the Repository:
+4. **Run the Development Server:**
+    ```bash
+    meteor
+    ```
+    - The application will be available at `http://localhost:3000`.
 
-Bash
-git clone https://github.com/JustCallMeJosh/firstattempt2026_escalada.git
-cd firstattempt2026_escalada
-Install Dependencies:
-Inside the project folder, run:
+## AI Tools Used
+- Google Gemini (Code generation and Lead Developer Persona)
+- Claude (UI/UX polishing and implementation)
+- GitHub Copilot (Real-time tweaks)
 
-Bash
-npm install
-Run the Application:
-Start the local development server:
+## Prompt
+> Pretend you are a senior developer at Ateneo de Davao's faculty.
+> You are tasked to convert the mobile application into a desktop website.
+> I will be sending screenshots of the figma prototype along with its flow.
+> According to the google document, please do the task. Make sure it is compiled in a single JS file. i will be using Meteor JS. the html, js and css must be inside a single JS file. Again, JS not JSX. The design must be same as the mobile app screenshots from the google document.
+> https://docs.google.com/document/d/15MJ0UUTx85zTlSI5XH1hmJZ4inzoYhlPsKg80DnidXA/edit?tab=t.qh2shoz8hbjp
 
-Bash
-meteor
-Access the Site:
-Once the build is complete, open your browser and navigate to:
-http://localhost:3000
+## Screenshots
+Below are the official screenshots of the web application in a desktop browser:
+<img width="1920" height="1080" alt="Dashboard View" src="YOUR_GITHUB_IMAGE_LINK_HERE" />
+<img width="1920" height="1080" alt="Alumni Portal View" src="YOUR_GITHUB_IMAGE_LINK_HERE" />
 
-🤖 AI Development Documentation
-This project explored the collaborative potential of various AI models to streamline the development of a full-stack web application.
-
-AI Tools Used
-Google Gemini: Served as the lead "Senior Developer" for core logic and initial code generation.
-
-Claude AI: Utilized for polishing the UI/UX and refining the code structure.
-
-GitHub Copilot: Used for real-time tweaks and syntax corrections during implementation.
-
-Subjective Experience & "Vibe"
-Coding with this AI trio felt like having a specialized dev team. Gemini provided a strong architectural foundation, effectively handling the "Senior Developer" persona. Claude felt more intuitive regarding the visual "vibe," helping bridge the gap between the mobile prototype and desktop responsiveness. Copilot acted as the reliable pair-programmer, catching small errors in the single-file integration.
-
-📝 Prompt Documentation
-The Initial & "Golden" Prompt
-The following prompt was used to generate the functional project:
-
-"Pretend you are a senior developer at Ateneo de Davao's faculty. You are tasked to convert the mobile application into a desktop website. I will be sending screenshots of the figma prototype along with its flow. According to the google document, please do the task. Make sure it is compiled in a single JS file. i will be using Meteor JS. the html, js and css must be inside a single JS file. Again, JS not JSX. The design must be same as the mobile app screenshots from the google document. https://docs.google.com/document/d/15MJ0UUTx85zTlSI5XH1hmJZ4inzoYhlPsKg80DnidXA/edit?tab=t.qh2shoz8hbjp"
+---
+*Created for Ateneo de Davao University Faculty.*

@@ -2,7 +2,7 @@
 
 ## Project Details
 - **Framework:** Meteor JS
-- **Module:** Alumni Portal
+- **Module:** Alumni Portal: Document Request
 
 ## Installation
 Follow these steps to replicate the repository and run the application on a different computer:

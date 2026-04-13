@@ -57,8 +57,9 @@ Before running the project, make sure the following tools are properly installed
 
 2. **Clone the Repository:**
     ```bash
-    git clone [https://github.com/JustCallMeJosh/firstattempt2026_escalada.git](https://github.com/JustCallMeJosh/firstattempt2026_escalada.git)
-    cd firstattempt2026_escalada
+    git clone https://github.com/JustCallMeJosh/firstattempt2026_escalada.git
+cd firstattempt2026_escalada
+
     ```
 
 3. **Install Dependencies:**

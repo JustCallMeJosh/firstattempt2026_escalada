@@ -58,6 +58,7 @@ Before running the project, make sure the following tools are properly installed
 2. **Clone the Repository:**
     ```bash
     git clone https://github.com/JustCallMeJosh/firstattempt2026_escalada.git
+```bash    
 cd firstattempt2026_escalada
 
     ```

@@ -4,12 +4,31 @@
 - **Framework:** Meteor JS
 - **Module:** Alumni Portal: Document Request
 
-## Installation
-Follow these steps to replicate the repository and run the application on a different computer:
+### 1. Prerequisites
 
-1. **Prerequisites:**
-    - Ensure you have [Meteor](https://docs.meteor.com/about/install) installed.
-    - Ensure you have [Node.js](https://nodejs.org/) installed.
+- **Ensure you have Meteor installed:**
+  - Visit: https://docs.meteor.com/about/install  
+  - Download and install Meteor based on your operating system.
+  - After installation, open a terminal or command prompt and run:
+    ```bash
+    meteor --version
+    ```
+  - If a version number appears, Meteor is installed correctly.
+  - If the command is not recognized, restart your terminal or reinstall Meteor.
+
+- **Ensure you have Node.js installed:**
+  - Visit: https://nodejs.org/  
+  - Download the **LTS (Long-Term Support)** version.
+  - Install using default settings.
+  - Verify installation by running:
+    ```bash
+    node -v
+    npm -v
+    ```
+  - Both commands should return version numbers. If not, reinstall Node.js.
+
+---
+
 
 2. **Clone the Repository:**
     ```bash

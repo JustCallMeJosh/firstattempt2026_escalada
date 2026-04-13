@@ -60,8 +60,7 @@ Before running the project, make sure the following tools are properly installed
     git clone https://github.com/JustCallMeJosh/firstattempt2026_escalada.git
 ```bash    
 cd firstattempt2026_escalada
-
-    ```
+```
 
 3. **Install Dependencies:**
     ```bash

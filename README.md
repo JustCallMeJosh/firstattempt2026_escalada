@@ -6,29 +6,54 @@
 
 ### 1. Prerequisites
 
-- **Ensure you have Meteor installed:**
-  - Visit: https://docs.meteor.com/about/install  
-  - Download and install Meteor based on your operating system.
-  - After installation, open a terminal or command prompt and run:
-    ```bash
-    meteor --version
-    ```
-  - If a version number appears, Meteor is installed correctly.
-  - If the command is not recognized, restart your terminal or reinstall Meteor.
+Before running the project, make sure the following tools are properly installed and working:
 
-- **Ensure you have Node.js installed:**
-  - Visit: https://nodejs.org/  
-  - Download the **LTS (Long-Term Support)** version.
-  - Install using default settings.
-  - Verify installation by running:
+#### **Install Node.js (Required for npm)**
+- Download Node.js from: https://nodejs.org/
+- Install the **LTS (Long-Term Support)** version.
+- After installation, open a terminal or command prompt and run:
     ```bash
     node -v
     npm -v
     ```
-  - Both commands should return version numbers. If not, reinstall Node.js.
+- Both commands should return version numbers.
 
 ---
 
+#### **Install Meteor JS**
+- Open a terminal or command prompt and run:
+    ```bash
+    npx meteor
+    ```
+- This will download and install Meteor on your system.
+
+- After installation, verify by running:
+    ```bash
+    meteor --version
+    ```
+
+---
+
+#### **Test Meteor Installation (Optional)**
+- Create a test project:
+    ```bash
+    meteor create test-app
+    ```
+
+- Navigate into the folder:
+    ```bash
+    cd test-app
+    ```
+
+- Run the project:
+    ```bash
+    meteor
+    ```
+
+- Open your browser and go to:
+    ```bash
+    http://localhost:3000
+    ```
 
 2. **Clone the Repository:**
     ```bash

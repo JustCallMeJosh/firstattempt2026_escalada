@@ -85,7 +85,9 @@ cd firstattempt2026_escalada
 > According to the google document, please do the task. Make sure it is compiled in a single JS file. i will be using Meteor JS. the html, js and css must be inside a single JS file. Again, JS not JSX. The design must be same as the mobile app screenshots from the google document.
 > https://docs.google.com/document/d/15MJ0UUTx85zTlSI5XH1hmJZ4inzoYhlPsKg80DnidXA/edit?tab=t.qh2shoz8hbjp
 >
-> ### 📱 Progressive Web App (PWA) Integration [NEW]
+>
+>
+### 📱 Progressive Web App (PWA) Integration [NEW]
 The Hub has been upgraded to a fully installable, offline-ready Progressive Web App utilizing a custom Service Worker and Manifest architecture.
 
 * **Native Installability:** Integrated `manifest.json` allows users to install the portal directly to their desktop or mobile home screens as a standalone native application.

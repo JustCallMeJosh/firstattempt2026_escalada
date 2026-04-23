@@ -84,6 +84,31 @@ cd firstattempt2026_escalada
 > I will be sending screenshots of the figma prototype along with its flow.
 > According to the google document, please do the task. Make sure it is compiled in a single JS file. i will be using Meteor JS. the html, js and css must be inside a single JS file. Again, JS not JSX. The design must be same as the mobile app screenshots from the google document.
 > https://docs.google.com/document/d/15MJ0UUTx85zTlSI5XH1hmJZ4inzoYhlPsKg80DnidXA/edit?tab=t.qh2shoz8hbjp
+>
+> ### 📱 Progressive Web App (PWA) Integration [NEW]
+The Hub has been upgraded to a fully installable, offline-ready Progressive Web App utilizing a custom Service Worker and Manifest architecture.
+
+* **Native Installability:** Integrated `manifest.json` allows users to install the portal directly to their desktop or mobile home screens as a standalone native application.
+* **Offline Reliability:** Implemented a custom Service Worker (`sw.js`) that intercepts network requests to serve cached assets when disconnected from the internet.
+* **Stale-While-Revalidate Caching:** Employs an advanced caching strategy that instantly loads the UI from the local device while silently fetching fresh data from the server in the background, ensuring zero-latency load times.
+* **WebSocket Optimization:** The Service Worker is explicitly engineered to bypass Meteor's `/sockjs/` polling, preventing cache crashes during offline states.
+
+* ## PWA Prompt
+Role: You are a Senior Full-Stack Developer specializing in Meteor JS and Progressive Web Applications (PWAs).
+Task: Help me convert my project into an offline-ready PWA using "Vibe Coding."
+Project Details:
+
+Framework: Meteor JS with Vanilla JavaScript.
+Project Name: Alumni Knights' Hub.
+Branding: Dark-themed, celestial aesthetic. Colors: Gold (#FFD700) and Black (#000000).
+Key Assets: My main logo is aknight-01.png (located in /public).
+Requirements:
+
+manifest.json: Create a manifest file that makes this app installable. Use the colors and logo mentioned above.
+sw.js (Service Worker): Write a Service Worker using a "Stale-While-Revalidate" or "Cache First" strategy. Ensure it caches main.html, main.js, main.css, and aknight-01.png.
+Registration: Show me exactly where to paste the registration code in my client/main.js to activate the Service Worker.
+Reasoning: Briefly explain why this Service Worker works and what the "Cache" is doing, so I can explain it in my "Architecture Deep-Dive" video for class.
+Important: Since this is Meteor, please confirm if these files should stay in the /public directory to be served correctly to the browser.
 
 ## Screenshots
 Below are the official screenshots of the web application in a desktop browser:

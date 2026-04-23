@@ -93,7 +93,7 @@ The Hub has been upgraded to a fully installable, offline-ready Progressive Web 
 * **Stale-While-Revalidate Caching:** Employs an advanced caching strategy that instantly loads the UI from the local device while silently fetching fresh data from the server in the background, ensuring zero-latency load times.
 * **WebSocket Optimization:** The Service Worker is explicitly engineered to bypass Meteor's `/sockjs/` polling, preventing cache crashes during offline states.
 
-* ## PWA Prompt
+## PWA Prompt
 Role: You are a Senior Full-Stack Developer specializing in Meteor JS and Progressive Web Applications (PWAs).
 Task: Help me convert my project into an offline-ready PWA using "Vibe Coding."
 Project Details:

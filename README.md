@@ -112,6 +112,10 @@ Registration: Show me exactly where to paste the registration code in my client/
 Reasoning: Briefly explain why this Service Worker works and what the "Cache" is doing, so I can explain it in my "Architecture Deep-Dive" video for class.
 Important: Since this is Meteor, please confirm if these files should stay in the /public directory to be served correctly to the browser.
 
+
+## Video Link
+https://www.youtube.com/watch?v=ORZtB4WvQwA
+
 ## Screenshots
 Below are the official screenshots of the web application in a desktop browser:
 <img width="1918" height="868" alt="Image" src="https://github.com/user-attachments/assets/13e025fd-ec06-46ca-821b-37e012ba7025" />
